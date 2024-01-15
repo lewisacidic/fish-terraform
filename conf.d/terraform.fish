@@ -12,11 +12,14 @@ abbr tfi 'terraform init'
 abbr tfp 'terraform plan'
 abbr tfip 'terraform init && terraform plan'
 abbr tfa 'terraform apply'
-abbr tfa! 'terraform apply -auto-approve`'
+abbr tfaa 'terraform apply -auto-approve'
+abbr tfa! 'terraform apply -auto-approve'
 abbr tfd 'terraform delete'
+abbr tfdd 'terraform delete'
 abbr tfd! 'terraform delete -auto-approve'
 abbr tfia 'terraform init && terraform apply'
-abbr tfia! 'terraform init && terraform apply -auto-approve`'
+abbr tfiaa 'terraform init && terraform apply -auto-approve'
+abbr tfia! 'terraform init && terraform apply -auto-approve'
 abbr tfc 'terraform console'
 abbr tfg 'terraform graph'
 abbr tfget 'terraform get'
@@ -42,10 +45,13 @@ function git_abbr_uninstall --on-event git_abbr_uninstall
   abbr -e tfp
   abbr -e tfip
   abbr -e tfa
+  abbr -e tfaa
   abbr -e tfa!
-  abbr -e fd
+  abbr -e tfd
+  abbr -e tfdd
   abbr -e fd!
   abbr -e tfia
+  abbr -e tfiaa
   abbr -e tfia!
   abbr -e tfc
   abbr -e tfg

@@ -12,7 +12,7 @@ fisher install lewisacidic/fish-terraform
 
 ## Usage
 
-Fish abbreviations replace typed text with an extended command after pressing <space> or <enter>.
+Fish abbreviations replace typed text with an extended command after pressing <Space> or <Enter>.
 
 abbreviation | result
 -------------|--------
