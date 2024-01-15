@@ -23,7 +23,7 @@ abbreviation | result
 `tfa` | `terraform apply`
 `tfa!` | `terraform apply -auto-approve` 
 `tfd` | `terraform delete`
-tfd! | `terraform delete -auto-approve`
+`tfd!` | `terraform delete -auto-approve`
 `tfia` | `terraform init && terraform apply`
 `tfia!` | `terraform init && terraform apply -auto-approve` 
 `tfc` | `terraform console`
