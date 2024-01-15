@@ -5,7 +5,7 @@
 # Copyright (c) 2024 Rich Lewis
 # MIT License
 
-set -g __fish_terraform_version 0.0.3
+set -g __fish_terraform_version 0.0.4
 
 abbr tf 'terraform'
 abbr tfi 'terraform init'
