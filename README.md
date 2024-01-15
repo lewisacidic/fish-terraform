@@ -21,9 +21,11 @@ abbreviation | result
 `tfp` | `terraform plan`
 `tfip` | `terraform init && terraform plan`
 `tfa` | `terraform apply`
+`tfaa` | `terraform apply -auto-approve` 
 `tfa!` | `terraform apply -auto-approve` 
-`tfd` | `terraform delete`
-`tfd!` | `terraform delete -auto-approve`
+`tfd` | `terraform destroy`
+`tfdd` | `terraform destroy -auto-approve`
+`tfd!` | `terraform destroy -auto-approve`
 `tfia` | `terraform init && terraform apply`
 `tfia!` | `terraform init && terraform apply -auto-approve` 
 `tfc` | `terraform console`
